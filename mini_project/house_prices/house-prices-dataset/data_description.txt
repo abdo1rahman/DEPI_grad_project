@@ -1,4 +1,7 @@
-MSSubClass: Identifies the type of dwelling involved in the sale.	
+MSSubClass: Identifies the type of dwelling involved in the sale.	# <-- Needs feature engineering
+# Number of stories
+# old vs new 
+# finished attic (yes, no, no attic)
 
         20	1-STORY 1946 & NEWER ALL STYLES
         30	1-STORY 1945 & OLDER
@@ -41,7 +44,7 @@ Alley: Type of alley access to property
 
        Grvl	Gravel
        Pave	Paved
-       NA 	No alley access
+       NA 	No alley access # <- alley or no alley
 		
 LotShape: General shape of property
 
@@ -62,15 +65,15 @@ Utilities: Type of utilities available
        AllPub	All public Utilities (E,G,W,& S)	
        NoSewr	Electricity, Gas, and Water (Septic Tank)
        NoSeWa	Electricity and Gas Only
-       ELO	Electricity only	
+       ELO	    Electricity only	
 	
 LotConfig: Lot configuration
 
        Inside	Inside lot
        Corner	Corner lot
        CulDSac	Cul-de-sac
-       FR2	Frontage on 2 sides of property
-       FR3	Frontage on 3 sides of property
+       FR2	    Frontage on 2 sides of property
+       FR3	    Frontage on 3 sides of property
 	
 LandSlope: Slope of property
 		
@@ -110,13 +113,13 @@ Condition1: Proximity to various conditions
 	
        Artery	Adjacent to arterial street
        Feedr	Adjacent to feeder street	
-       Norm	Normal	
-       RRNn	Within 200' of North-South Railroad
-       RRAn	Adjacent to North-South Railroad
-       PosN	Near positive off-site feature--park, greenbelt, etc.
-       PosA	Adjacent to postive off-site feature
-       RRNe	Within 200' of East-West Railroad
-       RRAe	Adjacent to East-West Railroad
+       Norm	    Normal	
+       RRNn	    Within 200' of North-South Railroad
+       RRAn	    Adjacent to North-South Railroad
+       PosN	    Near positive off-site feature--park, greenbelt, etc.
+       PosA	    Adjacent to postive off-site feature
+       RRNe	    Within 200' of East-West Railroad
+       RRAe	    Adjacent to East-West Railroad
 	
 Condition2: Proximity to various conditions (if more than one is present)
 		
