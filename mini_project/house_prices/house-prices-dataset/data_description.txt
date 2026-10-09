@@ -1,6 +1,5 @@
 MSSubClass: Identifies the type of dwelling involved in the sale.	# <-- Needs feature engineering
-# Number of stories
-# old vs new 
+# Number of stories done
 # finished attic (yes, no, no attic)
 
         20	1-STORY 1946 & NEWER ALL STYLES
@@ -197,7 +196,7 @@ RoofMatl: Roof material
        CompShg	Standard (Composite) Shingle
        Membran	Membrane
        Metal	Metal
-       Roll	Roll
+       Roll	    Roll
        Tar&Grv	Gravel & Tar
        WdShake	Wood Shakes
        WdShngl	Wood Shingles
@@ -247,7 +246,7 @@ MasVnrType: Masonry veneer type
        BrkCmn	Brick Common
        BrkFace	Brick Face
        CBlock	Cinder Block
-       None	None
+       None	    None
        Stone	Stone
 	
 MasVnrArea: Masonry veneer area in square feet
@@ -273,9 +272,9 @@ Foundation: Type of foundation
        BrkTil	Brick & Tile
        CBlock	Cinder Block
        PConc	Poured Contrete	
-       Slab	Slab
+       Slab	    Slab
        Stone	Stone
-       Wood	Wood
+       Wood	    Wood
 		
 BsmtQual: Evaluates the height of the basement
 
@@ -283,7 +282,7 @@ BsmtQual: Evaluates the height of the basement
        Gd	Good (90-99 inches)
        TA	Typical (80-89 inches)
        Fa	Fair (70-79 inches)
-       Po	Poor (<70 inches
+       Po	Poor (<70 inches)
        NA	No Basement
 		
 BsmtCond: Evaluates the general condition of the basement
@@ -334,11 +333,11 @@ TotalBsmtSF: Total square feet of basement area
 Heating: Type of heating
 		
        Floor	Floor Furnace
-       GasA	Gas forced warm air furnace
-       GasW	Gas hot water or steam heat
-       Grav	Gravity furnace	
-       OthW	Hot water or steam heat other than gas
-       Wall	Wall furnace
+       GasA	    Gas forced warm air furnace
+       GasW	    Gas hot water or steam heat
+       Grav	    Gravity furnace	
+       OthW	    Hot water or steam heat other than gas
+       Wall	    Wall furnace
 		
 HeatingQC: Heating quality and condition
 
@@ -347,7 +346,7 @@ HeatingQC: Heating quality and condition
        TA	Average/Typical
        Fa	Fair
        Po	Poor
-		
+	
 CentralAir: Central air conditioning
 
        N	No
@@ -359,7 +358,7 @@ Electrical: Electrical system
        FuseA	Fuse Box over 60 AMP and all Romex wiring (Average)	
        FuseF	60 AMP Fuse Box and mostly Romex wiring (Fair)
        FuseP	60 AMP Fuse Box and mostly knob & tube wiring (poor)
-       Mix	Mixed
+       Mix	    Mixed
 		
 1stFlrSF: First Floor square feet
  
@@ -515,7 +514,7 @@ SaleType: Type of sale
        ConLI	Contract Low Interest
        ConLD	Contract Low Down
        Oth	Other
-		
+
 SaleCondition: Condition of sale
 
        Normal	Normal Sale
