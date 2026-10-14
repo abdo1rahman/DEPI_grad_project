@@ -1,4 +1,1 @@
 ﻿# DEPI_grad_project
-
-This is a demo
-This is another demo
